@@ -1,3 +1,6 @@
+## 2019-3-23
+针对 matching method 陈老师提出以下 DP03 配对方法
+
 > Exact Match X1 城市、X4星级，然后找价格在实验组价格的上下10%区间里的所有酒店，计算他们Diff_Rating=CtripRating-QunarRating, 然后选择Diff_Rating为中位数的哪一家作为match的对照组。
 
 |                                       | 阅读方式 |                                       |
