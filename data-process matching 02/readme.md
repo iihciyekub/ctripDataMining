@@ -1,22 +1,41 @@
-##　2019-3-23:log matching method 02
+# 2019-3-23:log 
 
->  Exact Match X1 城市、X4星级，然后找价格最接近，但必须在实验组价格的上下10%区间里，否则就match不成功。
+## matching method 02
+>  **Exact Match 02** 
+>
+>  - X1 城市 <H Matching>
+>  - X4 星级 <H Matching>
+>  - 10%区间中价格最接近的，否则就match不成功。
+
+
+- [ ] 此数据中,还需要添加酒店的总房间数
+- [x] 完成以下内容
+
 
 | matching 优选酒店总数 | 匹配失败数量: | 匹配失败数量: | 单次匹配酒店最多数量: |
 | --------------------- | ------------- | ------------- | --------------------- |
 | 2972                  | 2897          | 75            | 353(下附详细数组)     |
 
+>**data-process matching 02.rar**
+>
+>> | 文件 | 阅读方式 | 说明 |
+>> | ---- | -------- | ---- |
+>> |      |          |      |
+>> |      |          |      |
+>> |      |          |      |
+>>
+>> 
 
-|                                      | 阅读方式 |                                       |
-| ------------------------------------ | -------- | ------------------------------------- |
-| [1] ctrip-aunar-fliggy-hotelinfo.xls |          | 未处理的数据文档                      |
-| [2] 2019320fin.csv                   |          | 1去除评分小于1<br />2去除评论数小于10 |
-| [3] matchHotel_                      | 上下对比 | 按原则配对的数据表包含较多信息        |
-| [3] matchHotel__marge                | 左右对比 |                                       |
-| [4] H1 matching with allrating       | 上下对比 |                                       |
-| [4] H1 matching with allrating_marge | 左右对比 | (详细表)包含前100条评论               |
-| [4]H1 matching with STD              | 上下对比 |                                       |
-| [4]H1 matching with STD_marge        | 左右对比 | (简化表)只列出评论的STD               |
+| data-process matching 02.rar<br />压缩包中的文件 | 阅读方式 | 说明                                  |
+| ------------------------------------------------ | -------- | ------------------------------------- |
+| [1] ctrip-aunar-fliggy-hotelinfo.xls             |          | 未处理的数据文档                      |
+| [2] 2019320fin.csv                               |          | 1去除评分小于1<br />2去除评论数小于10 |
+| [3] matchHotel_                                  | 上下对比 | 按原则配对的数据表包含较多信息        |
+| [3] matchHotel__marge                            | 左右对比 |                                       |
+| [4] H1 matching with allrating                   | 上下对比 |                                       |
+| [4] H1 matching with allrating_marge             | 左右对比 | (详细表)包含前100条评论               |
+| [4]H1 matching with STD                          | 上下对比 |                                       |
+| [4]H1 matching with STD_marge                    | 左右对比 | (简化表)只列出评论的STD               |
 
 
 
