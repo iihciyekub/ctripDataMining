@@ -1,3 +1,7 @@
+![1553928296531](D:\iiProject\github result share\Fliggy orderInfoData-output 20190330\assets\1553928296531.png)
+
+
+
 # 相关概念,基础数据:
 
 > | 实验组     | 2018-11 期间,飞猪信用入住酒店(或称 合作酒店)           |
